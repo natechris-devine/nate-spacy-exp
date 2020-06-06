@@ -18,3 +18,6 @@ def dateFinder_basic(doc):
         if ent.label_ == 'DATE':
             dates.append(ent)
     return dates
+
+    # can now use datetime module to make sense of all these different date presentations
+    # can then convert to a standard datetime object.

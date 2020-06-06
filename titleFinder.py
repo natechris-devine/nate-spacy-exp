@@ -13,7 +13,7 @@ nlp = spacy.load("en_core_web_sm")
 # text = "I went to Stanford and got a Masters Degree."
 # text = "I got my AWS Cert two years ago."
 # text = "I have my Bachelors in Economics and my Masters in Social Sciences."
-text = "My masters degree was in Economics and I got it in two years"
+# text = "My masters degree was in Economics and I got it in two years"
 
 # Target text format for basic title finder
 text_basic = ["I have a Masters in User Experience Design from Stanford",
